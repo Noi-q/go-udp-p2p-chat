@@ -1,5 +1,14 @@
 ### UDP协议P2P通信(支持本地和局域网通信)
 - 可以实现公网UDP通信
+
+#### 编译
+```go
+go build main.go
+```
+```go
+go build client.go
+```
+
 #### 代码运行
 - 启动UDP服务器
 ```go
